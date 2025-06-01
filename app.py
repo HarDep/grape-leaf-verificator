@@ -39,7 +39,7 @@ class GrapeDiseasePredictor:
         self.IMG_SIZE = (128, 128)
     
         # Asumiendo que el modelo retorna [No es hoja de uva, Es hoja de uva]
-        self.grape_leaf_threshold = 0.6  # Umbral para considerar que es hoja de uva
+        self.grape_leaf_threshold = 0.5  # Umbral para considerar que es hoja de uva
         
     def preprocess_image(self, image):
         """
